@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gokul Venkadasamy">
+    <meta name="description" content="Fast and accurate currency converter for real-time exchange rates. Supports multiple currencies with a clean UI.">
+    <meta name="keywords" content="currency converter, exchange rates, convert currency, money exchange app, Gokul Venkadasamy">
+    <title>💲Currency Converter App</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/dce3bc69ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form id="converter-form">
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" placeholder="Enter amount" required>
+            </div>
+            <div class="form-group">
+                <label for="from-currency">From</label>
+                <select id="from-currency">
+
+                </select>
+            </div>
+             <div class="form-group">
+                <label for="to-currency">To</label>
+                <select id="to-currency">
+                    
+                </select>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+        <div id="result">
+            
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
